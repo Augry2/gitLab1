@@ -60,3 +60,11 @@ Git push origin feature1
 Git push origin feature2
 Git push origin tag extinct
 
+
+18.
+Git tag -a v1.0 (message: Version 1.0)
+git push origin v1.0
+
+
+19.
+Git rebase -i HEAD~2
