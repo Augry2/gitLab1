@@ -1,0 +1,70 @@
+1,2.
+Git init
+Git branch -m master main
+Create README.md file
+
+
+3.
+Git add README.md
+Git commit -m “Initial commit”
+
+4,5.
+Git branch feature1
+Git switch feature1
+Made changes in the file
+Git add README.md
+Git commit -m “make changes to README.md”
+
+6,7.
+Git switch main
+Make changes in file
+Git merge feature1
+Solve conflicts
+Git add README.md
+Git commit -m “solve conflict
+
+8.
+Git tag extinct
+
+9.
+Git reset --hard HEAD~1
+
+10.
+Git branch feature2
+
+11.
+(editing the names)
+Git add README.md
+Git commit -m “capitalise first letter in README”
+
+12, 13.
+Git switch feature2
+Touch fix1.txt (create empty file)
+Git add fix1.txt
+Git commit -m “add fix1.txt”
+
+Touch fix2.txt
+Git add fix2.txt
+Git commit -m “add fix2.txt”
+Git switch main
+Ls -l
+
+14. 
+Git log feature2 --oneline (se vilken hash committen har)
+Git cherry-pick hash-kod till rätt commit
+
+(skapa ett repository på github)
+git remote add origin https://github.com/Augry2/gitLab1.git
+git push -u origin main
+Git push origin feature1
+Git push origin feature2
+Git push origin tag extinct
+
+18.
+Git tag -a v1.0 (message: Version 1.0)
+git push origin v1.0
+
+
+19.
+Git rebase -i HEAD~2
+
